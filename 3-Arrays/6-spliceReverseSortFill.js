@@ -25,7 +25,7 @@ console.log(reverseNumeros)
 // sort con numeros
 const unsortedNumbers1 = [4,18,1,62,34] // js pasa estos elementos a string por eso se ordenaq de esa manera
 const modificacion = unsortedNumbers1.sort()
-console.log(unsortedNumbers1) // los ordena en unicode y los ordena en orden
+console.log(unsortedNumbers1) // los ordena en unicode y los ordena en orden de menor a mayor segun unicode
 console.log(modificacion)
 
 

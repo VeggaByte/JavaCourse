@@ -9,8 +9,6 @@ console.log(numerosPares)
 // % el modulo lo que hace es dividir por ejemplo 4 / 2 quiere decir que cabe 2 veces el 2 en el cuatro por lo cual 2*2 = 0
 
 
-
-
 // reduce() ejectua una funcion reductora sobre cada elemento del array devolviendo como resultado un solo valor
 //reduce
 const numerosReducidos = [1,2,3,4,5]
