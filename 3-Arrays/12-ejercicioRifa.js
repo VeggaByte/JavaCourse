@@ -8,7 +8,7 @@ const ganadores = [
     {id: 33, nombre: 'Eduardo', Ticket: 33},
     {id: 47, nombre: 'Jose', Ticket: 41},
 ]
-function findWinnerByName (tiketNombre){ // aqio find crea un nuevo arreglo por lo cual se le pasa los parametros ganadores y de ahi los puedes llamar como sea por ejemplo persona.nombre
+function findWinnerByName (tiketNombre){ // aqui find crea un nuevo arreglo por lo cual se le pasa los parametros ganadores y de ahi los puedes llamar como sea por ejemplo persona.nombre
     const ganador = ganadores.find(persona => persona.nombre === tiketNombre || persona.Ticket == tiketNombre )
 return InformacionDelGanador(ganador) || 'No se encontro el ganador'
 }
