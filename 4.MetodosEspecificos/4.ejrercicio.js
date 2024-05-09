@@ -1,4 +1,5 @@
-const stringArray = ['manzana','platano','orange','kiwi','manzana']
+const stringArray = ['manzana','platano','orange','kiwi','manzana','kiwi'
+]
 const target = 'kiwi'
 
 function findStringIndices (array, target){
