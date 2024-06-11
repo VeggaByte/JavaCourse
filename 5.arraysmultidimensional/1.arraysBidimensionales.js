@@ -17,3 +17,4 @@ console.log(array2DExplicado)
 
 let value = array2DExplicado[1][2]
 console.log(value)
+
